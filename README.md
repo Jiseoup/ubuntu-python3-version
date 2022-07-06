@@ -45,5 +45,5 @@ If you want to return to auto mode, using the command below.
 ```bash
 $ sudo update-alternatives --auto python3
 ```
-## CAUTION
-If you want to use command **`sudo apt-get update`**, please use **`python3.6`**, the default version of the **`ubuntu 18.04`** system.
+## CAUTION !
+If you want to use command **`$ sudo apt-get update`**, please use **`python3.6`**, the default version of the **`ubuntu 18.04`** system.
