@@ -32,6 +32,8 @@ $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8
 ```
 
 ## SELECT VERSION
+You can change the version using the command below.
 ```bash
 $ sudo update-alternatives --config python3
 ```
+
