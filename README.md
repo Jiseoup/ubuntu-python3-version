@@ -36,4 +36,12 @@ You can change the version using the command below.
 ```bash
 $ sudo update-alternatives --config python3
 ```
+<img src="/img/select_version.png"/>
 
+* You can change the version by entering a number.
+* Auto mode uses the highest priority version. -> **`python3.8`**
+
+If you want to return to auto mode, using the command below.
+```bash
+$ sudo update-alternatives --auto python3
+```
