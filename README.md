@@ -21,6 +21,7 @@ $ sudo apt-get install python3.8
 ### Install Python 3.10 Version
 **`python3.10`** version is not available in **`ubuntu 18.04`**'s default repositories. So, the python package should be added through an additional repository. We use the repository of [deadsnakes](https://github.com/deadsnakes). If you want to install **`python3.10`** version as well, follow the command below.
 ```bash
+$ sudo apt-get install software-properties-common
 $ sudo add-apt-repository ppa:deadsnakes/ppa
 $ sudo apt-get update
 $ sudo apt-get upgrade
