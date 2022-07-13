@@ -18,8 +18,17 @@ $ sudo apt-get install python3.7
 $ sudo apt-get install python3.8
 ```
 
+### Install Python 3.10 Version
+**`python3.10`** version is not available in **`ubuntu 18.04`**'s default repositories. So, the python package should be added through an additional repository. We use the repository of [deadsnakes](https://github.com/deadsnakes). If you want to install **`python3.10`** version as well, follow the command below.
+```bash
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install python3.10
+```
+
 ## VERSION SETTINGS
-The higher level, the higher priority.
+You can define the priority level as you like, the higher level, the higher priority.
 ```c
 // Set 3.6 version as priority level 1
 $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
@@ -29,6 +38,9 @@ $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7
 
 // Set 3.8 version as priority level 3
 $ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 3
+
+// Set 3.10 version as priority level 4 (Use this command only if you have installed python 3.10 version.)
+$ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 4
 ```
 
 ## SELECT VERSION
